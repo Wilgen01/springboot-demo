@@ -12,9 +12,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
-import java.util.Objects;
 import java.util.Set;
-import org.hibernate.annotations.ManyToAny;
 
 /**
  *
