@@ -16,7 +16,7 @@ public class PublisherController {
     
     @RequestMapping("/publishers")
     public String getPublishers(Model model){
-        publisherRepository.findAll();
+        model.addAttribute("publishers", publisherRepository.findAll());
         return "publishers/list";
     }
 }
